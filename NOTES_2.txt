@@ -1,0 +1,35 @@
+1. Linear Regression is the same as least squares.
+    No regularization happens in it.
+       
+
+
+
+
+
+
+Definitions:
+- Bias: The inability of a machine learning model to capture the true relationship
+        is called bias.
+        
+
+Example:
+A straight line and a squiggly line in an attempt to fit a curve of the true
+relationship.
+
+    BIAS:
+    The first may have high BIAS, since the Sums of squares in the training set
+    is high, or in other words, its inability to capture the true relationship in
+    the training dataset is high.
+
+    On the other hand, the squiggly line may well reach that it has a zero sum of
+    squares in the training set, meaning it has a very low bias.
+    
+    
+    VARIANCE:
+    The opposite happens here. Variance is the the difference/variance between SOS 
+    for different testing data. In the straight line, it will have a consistent 
+    prediction for different testing sets, meaning that it has low VARIANCE.
+    
+    While in the squiggly line, the prediction for different testing sets comes 
+    out to be vastly different. There's no consistency, and so it has high
+    VARIANCE.

@@ -1,0 +1,14 @@
+In lasso and ridge regression models:
+
+alpha corresponds to restriction.
+
+Increasing alpha -> Increasing restriciton -> Moving towards a generalized model (The underfitting side) -> Increasing regularization.
+
+Decreasing alpha -> Decreasing restriction ->
+-> All the involved features will have considerable weight in our prediction. -> Moving towards an overfit model -> Decreasing regularization.
+------------------------------------------------------------------------------------------
+In LogisticRegression and LineSVC classification models (both of which use L2 regularization):
+
+We use C.
+C is practically the opposite of alpha.
+Increasing C -> Decreasing regularization -> Moving towarads an overfit model.
